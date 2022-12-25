@@ -1,0 +1,41 @@
+._Sidebarmaindiv{
+    /* border-right:1px solid grey; */
+    width:70px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    gap:2%;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+._Sidebarmaindiv>div>div{
+/* border:1px solid blue; */
+font-size: 16px;
+/* font-weight: 700; */
+}
+._icondiv{
+    /* border:1px solid green; */
+    display: flex;
+    height:40px;
+    width:42px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;  
+    background: linear-gradient(90deg, #5468FA 0%, rgba(84, 104, 250, 0.6) 100%);
+}
+._icondiv1{
+    /* border:1px solid green; */
+    display: flex;
+    height:40px;
+    width:42px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: white;
+}
+._Sidebardiv{
+    /* border:1px solid red; */
+    display: flex;
+}

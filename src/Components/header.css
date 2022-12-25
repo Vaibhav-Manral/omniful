@@ -1,0 +1,22 @@
+._Headermaindiv{
+    /* border:1px solid green; */
+    height:30px;
+    display: flex;
+    align-items: center;
+    gap:12px;
+margin-top: 15px;
+}
+._Headermaindiv>div:nth-child(1){
+    margin-left: 16px;
+    /* border: 1px solid #FFC82A; */
+    width:8px;
+    height:20px;
+    background-color: #FFC82A;
+}
+._Headermaindiv>div:nth-child(2){
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    color: #222222;
+
+}
